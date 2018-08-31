@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper {
+	width: 800px;
+	overflow: hidden;
+	margin: 3% 25% 5%;
+	position: fixed;
+}
+#work_button_container {
+	width: 300px;
+	float: left;
+}
+#work_button_container a {
+	margin: 21pt;
+	padding: 0;
+	font-size: 40pt;
+}
+#work_button_container a:hover {
+	font-size: 60pt;
+	margin: 0;
+}
+#about_button_container {
+	width: 300;
+	float: right;
+	overflow: hidden;
+}
+#about_button_container a {
+	margin-bottom: 21pt;
+	padding: 0;
+	font-size: 40pt;
+}
+#about_button_container a:hover {
+	font-size: 60pt;
+	margin: 0;
+}
+#contact_button_container {
+	width: 300;
+	overflow: hidden;
+}
+#contact_button_container a {
+	margin-bottom: 21pt;
+	padding: 0;
+	font-size: 40pt;
+}
+#contact_button_container a:hover {
+	font-size: 60pt;
+	margin: 0;
+}
+#logo_container {
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+	padding-top: 10%;
+	text-align: center; 
+}
+#logo_container, img {
+	width: 50%;
+}
+#homepage_title {
+	font-size: 60pt;
+	text-align: center;
+	margin: 0;
+}

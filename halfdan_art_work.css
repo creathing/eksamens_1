@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+#subpage_logo_container {
+	background: url("resources/Brain.png");
+}
+.image_gallery img {
+	float: left;
+	padding: 5px;
+	box-sizing: border-box;
+	width: 300px;
+	display: grid;
+	margin: 0 auto;
+}
+.image_gallery {
+	width: 1000px;
+	margin: 0 auto;
+	height: 1600px;
+}
+.brain_image {
+	position: relative;
+	bottom: 125px;
+}
+.truck_image {
+	position: relative;
+	right: 300px;
+	bottom: 550px;
+}
+.bonfire_image {
+	position: relative;
+	right: 300px;
+	top: 75px;
+}
+.woman_image {
+	position: relative;
+	bottom: 225px;
+}
+.portrait_image_container {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+.portrait_image_container img {
+	margin: 0 auto;
+	display: block;
+	margin-top: -500px;
+}
+#blue_box_work_portrait {
+	height: 400px;
+}
+.tree_image_container img {
+	margin: 0 auto;
+	display: block;
+	margin-top: -400px;
+}
+#blue_box_work_tree {
+	height: 300px;
+}
+.animation_container {
+	width: 400px;
+	height: 400px;
+	background: url(mushroom_animation/css_workshop_shroom.png) 0 0 no-repeat;
+	animation: play 1s steps(15) infinite;
+	margin: 0 auto;
+	position: relative;
+	top: -300px;
+}
+@keyframes play {
+	0%{background-position:0px;}
+	100%{ background-position: -6000px; }
+}
+#grey_box_mushroom {
+	margin-bottom: -300px;
+}
+#blue_box_mushroom {
+	height: 200px;
+}
+#mushroom_text_container {
+	position: relative;
+	top: -300px;
+}
+#video_container {
+	margin-top: -600px;
+}
+#blue_box_video {
+	height: 300px;
+}
+#video_text_container {
+	margin-top: -250px;
+}
+.work_logo img {
+	height: 235px;
+	width: 220px;
+	margin: 0 auto;
+}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+#subpage_logo_container {
+	background: url("resources/eye_dots_cleaned.png");
+}
+
+.grey_box .quote_and_image {
+	display: flex;
+	justify-content: space-around;
+}
+.grey_box .quote_and_image div {
+	width: calc(50% - 25px);
+}
+.grey_box img {
+	width: 75%;
+}
+.skillset_image {
+	background-image: url("resources/about_picture.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 700px;
+	width: 100%;
+}
+.about_logo img {
+	height: 235px;
+	width: 220px;
+	margin: 0 auto;
+}

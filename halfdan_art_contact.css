@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+#subpage_logo_container {
+	background: url("resources/mouth_dots.png");
+}
+.mail_text {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 40pt;
+}
+.grey_box {
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 25pt;
+	padding: 100px 25px;
+}
+.social_media_link {
+	justify-content: space-between;
+	display: flex;
+	max-width: 200px;
+	margin: 0 auto;
+}
+.social_media_link img {
+	width: 50px;
+	height: 50px;
+}
+
+.blue_box img {
+	height: 235px;
+	width: 220px;
+}
